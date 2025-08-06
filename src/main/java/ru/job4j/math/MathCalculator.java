@@ -23,6 +23,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println("результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("результат расчета равен: " + minusAndDivision(13, 12));
-        System.out.println("результат рсчета равен " + sumAndAll(12, 13));
+        System.out.println("результат рaсчета равен: " + sumAndAll(12, 13));
     }
 }
