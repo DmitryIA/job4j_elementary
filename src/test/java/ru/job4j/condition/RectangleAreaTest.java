@@ -9,27 +9,21 @@ class RectangleAreaTest {
     @Test
     void whenP6K2Square2() {
         double expected = 2;
-        double p = 6;
-        double k = 2;
-        double output = RectangleArea.square(p, k);
+        double output = RectangleArea.square(6, 2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
     void whenP5K3Square1dot17() {
         double expected = 1.17;
-        double p = 5;
-        double k = 3;
-        double output = RectangleArea.square(p, k);
+        double output = RectangleArea.square(5, 3);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
-    void whenP8K7Square2dot38() {
+    void whenP8K4dot5Square2dot38() {
         double expected = 2.38;
-        double p = 8;
-        double k = 4.5;
-        double output = RectangleArea.square(p, k);
+        double output = RectangleArea.square(8, 4.5);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
