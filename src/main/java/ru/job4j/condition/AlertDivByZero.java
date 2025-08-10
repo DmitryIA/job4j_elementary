@@ -13,7 +13,7 @@ public class AlertDivByZero {
     public  static void main(String[] args) {
         AlertDivByZero.checkNumber(4);
         AlertDivByZero.checkNumber(0);
-        AlertDivByZero.checkNumber(-4);
+        AlertDivByZero.checkNumber(-1);
     }
 }
 
