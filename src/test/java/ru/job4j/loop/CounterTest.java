@@ -26,4 +26,32 @@ class CounterTest {
         int result = Counter.sum(1, 1);
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void zeroTheTen() {
+        int expected = 30;
+        int result = Counter.sumByEven(0, 10);
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void threeTheEight() {
+        int expected = 18;
+        int result = Counter.sumByEven(3, 8);
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void oneTheOne() {
+        int expected = 0;
+        int result = Counter.sumByEven(1, 1);
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void negativeSixTheSix() {
+        int expected = 0;
+        int result = Counter.sumByEven(-6, 6);
+        assertThat(result).isEqualTo(expected);
+    }
 }
