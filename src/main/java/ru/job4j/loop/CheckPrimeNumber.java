@@ -15,3 +15,4 @@ public class CheckPrimeNumber {
         return prime;
     }
 }
+//push
