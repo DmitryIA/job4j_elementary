@@ -1,12 +1,12 @@
 package ru.job4j.loop;
 
 public class CheckPrimeNumber {
-    public static boolean check(int number){
+    public static boolean check(int number) {
         if (number <= 1) {
             return false;
         }
         boolean prime = true;
-        for (int i = 2; i <= Math.sqrt(number); i++){
+        for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 prime = false;
                 break;
@@ -15,4 +15,3 @@ public class CheckPrimeNumber {
         return prime;
     }
 }
-//push
